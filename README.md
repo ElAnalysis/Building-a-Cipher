@@ -36,10 +36,13 @@
 
 example:
 
+<br>
+
 sentence = 'My brain hurts!'
 
 sentence.find(‘r’)
 
+<br>
 <br>
 
 Above, the .find() method is called on sentence (the string to search in), and 'r' (the character to locate) is passed as the argument. The sentence.find('r') call will return 4, which is the index of the first occurrence of 'r' in sentence.
@@ -129,6 +132,8 @@ print(i)
 
 You can obtain the same effect of a = a + b by using the addition assignment operator:
 
+<br>
+
 Example Code
 
 <br>
@@ -147,10 +152,52 @@ Comparison operators allow you to compare two objects based on their values. You
 
 ### **Python has the following comparison operators:**
 **Operator	Meaning**
+
 <br>
+
 * **==**	Equal
 * **!=**	Not equal
 * **>**	Greater than
 * **<**	Less than
 * **>=**	Greater than or equal to
 * **<=**	Less than or equal to
+
+<br>
+<br>
+
+A conditional **if** statement. This is composed of the **if** keyword, a condition, and a colon **:**.
+
+<br>
+
+Example Code
+
+<br>
+
+if x != 0:
+    print(x)
+
+<br>
+<br>
+
+In the example above, the condition of the if statement is x != 0. The code print(x), inside the if statement body, runs only when the condition evaluates to True (in this example, meaning that x is different from zero).
+
+<br>
+<br>
+
+A conditional statement can also have an else clause. This clause can be added to the end of an if statement to execute alternative code if the condition of the if statement is false:
+
+<br>
+
+Example Code
+
+<br>
+
+if x != 0:
+    print(x)
+else:
+    print('x = 0')
+
+<br>
+<br>
+
+As you can see in your output, when the loop iterations reach the space, a space is added to the encrypted string. Then the code outside the if block executes and a c is added to the encrypted string.
